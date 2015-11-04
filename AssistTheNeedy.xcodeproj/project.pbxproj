@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5842BF421BAE009300D6D23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842BF411BAE009300D6D23E /* AppDelegate.swift */; };
-		5842BF441BAE009300D6D23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842BF431BAE009300D6D23E /* ViewController.swift */; };
+		5842BF441BAE009300D6D23E /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842BF431BAE009300D6D23E /* GalleryViewController.swift */; };
 		5842BF471BAE009300D6D23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5842BF451BAE009300D6D23E /* Main.storyboard */; };
 		5842BF491BAE009300D6D23E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5842BF481BAE009300D6D23E /* Images.xcassets */; };
 		5842BF4C1BAE009300D6D23E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5842BF4A1BAE009300D6D23E /* LaunchScreen.xib */; };
 		5842BF581BAE009300D6D23E /* AssistTheNeedyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5842BF571BAE009300D6D23E /* AssistTheNeedyTests.swift */; };
+		5862AA581BB8B96E00B7B30C /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862AA571BB8B96E00B7B30C /* PageItemController.swift */; settings = {ASSET_TAGS = (); }; };
+		5862AA5A1BB8CCB200B7B30C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862AA591BB8CCB200B7B30C /* FormViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		5842BF3C1BAE009300D6D23E /* AssistTheNeedy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistTheNeedy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5842BF401BAE009300D6D23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5842BF411BAE009300D6D23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5842BF431BAE009300D6D23E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5842BF431BAE009300D6D23E /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		5842BF461BAE009300D6D23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5842BF481BAE009300D6D23E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5842BF4B1BAE009300D6D23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5842BF511BAE009300D6D23E /* AssistTheNeedyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistTheNeedyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5842BF561BAE009300D6D23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5842BF571BAE009300D6D23E /* AssistTheNeedyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistTheNeedyTests.swift; sourceTree = "<group>"; };
+		5862AA571BB8B96E00B7B30C /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
+		5862AA591BB8CCB200B7B30C /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				5842BF411BAE009300D6D23E /* AppDelegate.swift */,
-				5842BF431BAE009300D6D23E /* ViewController.swift */,
+				5842BF431BAE009300D6D23E /* GalleryViewController.swift */,
+				5862AA591BB8CCB200B7B30C /* FormViewController.swift */,
+				5862AA571BB8B96E00B7B30C /* PageItemController.swift */,
 				5842BF451BAE009300D6D23E /* Main.storyboard */,
 				5842BF481BAE009300D6D23E /* Images.xcassets */,
 				5842BF4A1BAE009300D6D23E /* LaunchScreen.xib */,
@@ -156,6 +162,7 @@
 		5842BF341BAE009300D6D23E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Xinzhe Wang";
 				TargetAttributes = {
@@ -212,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5842BF441BAE009300D6D23E /* ViewController.swift in Sources */,
+				5842BF441BAE009300D6D23E /* GalleryViewController.swift in Sources */,
+				5862AA581BB8B96E00B7B30C /* PageItemController.swift in Sources */,
+				5862AA5A1BB8CCB200B7B30C /* FormViewController.swift in Sources */,
 				5842BF421BAE009300D6D23E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +420,7 @@
 				5842BF5D1BAE009300D6D23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5842BF5E1BAE009300D6D23E /* Build configuration list for PBXNativeTarget "AssistTheNeedyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +429,7 @@
 				5842BF601BAE009300D6D23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

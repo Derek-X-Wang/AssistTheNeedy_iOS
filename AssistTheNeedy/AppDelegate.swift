@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var pageControl = UIPageControl.appearance()
+        pageControl.pageIndicatorTintColor = UIColor.lightGrayColor()
+        pageControl.currentPageIndicatorTintColor = UIColor.whiteColor()
+        //pageControl.backgroundColor = UIColor.whiteColor()
+        
+//        let color = UIColor(red: 41, green: 140, blue: 39, alpha: 1.0)
+//        UITabBar.appearance().barTintColor = color
+        UITabBar.appearance().backgroundColor = UIColor.whiteColor()
+        
         return true
     }
 
